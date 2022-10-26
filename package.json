@@ -1,0 +1,16 @@
+{
+  "name": "vybzchat",
+  "version": "1.0.0",
+  "description": "a social networking application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Kweku Afrifa Codjoe",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "moment": "^2.29.4",
+    "socket.io": "^4.5.2"
+  }
+}
