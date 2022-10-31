@@ -1,19 +1,24 @@
 <?php
-     //DEVELOPMENT MODE
-    $host = '127.0.0.1';
-    $db = 'vybzuser';
-    $user = 'root';
-    $pass = '';
-    $charset = 'utf8mb4';
+    //$server = "sql206.epizy.com";
+    //$username = "epiz_32873159";
+    //$password = "x8PZaHMz6o";
+    //$dbname = "epiz_32873159_vybzchat_db";
     
-    //PRODUCTION MODE
-    //$host = 'sql5.freemysqlhosting.net';
-    //$db = '	sql5529828';
-    //$user = 'sql5529828';
-    //$pass = 'W74BmwLEzp';
-    //$charset = 'utf8mb4';
+    //$conn = mysqli_connect($server, $username, $password, $dbname);
+    //if($conn){
+        //echo "" .mysqli_connect_error();
+    //}
+?>
 
-    $conn = mysqli_connect($host, $db, $user, $pass, $charset);
+
+
+
+
+
+
+<?php
+    
+    $conn = mysqli_connect('localhost', 'root', '', 'vybzuser');
     if($conn){
         echo "" .mysqli_connect_error();
     }
